@@ -89,18 +89,17 @@
 
         <!-- Agency -->
         <div class="form-field">
-          <label class="input-label">DOST Agency</label>
+          <label class="input-label">Agency</label>
           <select v-model="formData.agency" class="agency-select">
             <option value="">Select Agency</option>
-            <option value="DOST-CALABARZON">DOST-CALABARZON</option>
-            <option value="DOST-PCAARRD">DOST-PCAARRD</option>
-            <option value="DOST-TBI">DOST-TBI</option>
-            <option value="DOST-NCR">DOST-NCR</option>
-            <option value="DOST-CAR">DOST-CAR</option>
-            <option value="DOST-MIMAROPA">DOST-MIMAROPA</option>
-            <option value="DOST-REGION III">DOST-REGION III</option>
-            <option value="DOST-REGION IV-A">DOST-REGION IV-A</option>
-            <option value="DOST-REGION V">DOST-REGION V</option>
+            <option value="MSME">MSME</option>
+            <option value="Academe">Academe</option>
+            <option value="NGA">NGA</option>
+            <option value="DepED">DepED</option>
+            <option value="Cooperatives">Cooperatives</option>
+            <option value="LGU">LGU</option>
+            <option value="Private Sector">Private Sector</option>
+            <option value="Others">Others</option>
           </select>
         </div>
 
@@ -167,6 +166,7 @@ const props = defineProps({
     type: Array,
     default: () => [
       'Technology Transfer',
+      "Laboratory Services",
       'Research Partnership',
       'Startup Incubation',
       'Innovation Support',

@@ -16,7 +16,7 @@
       <div class="page-header">
         <div class="header-content">
           <BaseButton variant="outline" size="small" @click="goBack"> ← Back </BaseButton>
-          <h1>Edit Entry</h1>
+          <!-- <h1>Edit Entry</h1> -->
         </div>
       </div>
 
